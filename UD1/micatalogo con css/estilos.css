@@ -1,3 +1,9 @@
+/* Estilos del main*/
+main {
+margin: 20 px;
+max-width: 800px;
+padding: 0 30px;
+}
 /* Estilo para el body */
 body {
 background-image: url('https://wallpapers.com/images/hd/fondorojo-solido-vibrante-9n639n6slgf4lerf.jpg'); 
@@ -24,8 +30,8 @@ margin-bottom: 20px;
 }
 /* Estilo para el pie de página */
 #SHAW {
-bottom: 0;
-width: 100%;
+bottom: 10;
+width: 100%; 
 background-color: black;
 color: rgb(255, 0, 0);
 text-align: center;
@@ -57,7 +63,7 @@ text-shadow: #910000 5px 5px 8px;
 }
 /* Estilo para el h2 */
 h2 {
-color: rgb(255, 255, 255);
+color: rgb(255, 0, 0);
 font-family: 'Arial Black', Arial, sans-serif;
 text-shadow: 4px 4px 8px #000000;
 text-align: center;
@@ -76,9 +82,9 @@ border-radius: 15px;
 }
 /* Estilo para el .destacado */
 #destacado {
-color: rgb(53, 0, 122); 
+color: rgb(51, 2, 116); 
 font-family: 'Arial Black', Arial, sans-serif;
-text-shadow : 4px 4px 8px #41014e;
+text-shadow : 4px 4px 8px #6b0380;
 text-align: center;
 font-size: 50px;
 margin-bottom: 20px;
