@@ -1,0 +1,85 @@
+
+/* Estilo para el body */
+body {
+background-image: url('https://wallpapers.com/images/hd/fondorojo-solido-vibrante-9n639n6slgf4lerf.jpg'); 
+background-repeat: no-repeat;
+background-size:cover;
+}
+/* Estilo para el encabezado h1 */
+h1 {
+text-align: center;
+font-family: 'Courier New', Courier, monospace;
+font-size: 50px;
+text-shadow: #ff0202 4px 4px 4px;
+
+}
+/* Estilo para el h2 */
+h2 {
+color: rgb(255, 255, 255);
+font-family: 'Arial Black', Arial, sans-serif;
+text-shadow: 4px 4px 8px #7e7e7e;
+text-align: center;
+font-size: 20px;
+margin-bottom: 10px;
+}
+
+#Producto1 {
+    color: white;
+    border-style: solid;
+    border-radius: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: black;
+}
+
+#Producto2 {
+    color: rgb(255, 255, 255);
+    border-style: solid;
+    border-radius: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: black;
+}
+
+#Producto3 {
+    color: white;
+    border-style: solid;
+    border-radius: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: black;
+}
+
+#Producto4 {
+    color: white;
+    border-style: solid;
+    border-radius: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: black;
+}
+
+#Producto5 {
+    color: white;
+    border-style: solid;
+    border-radius: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: black;
+}
+
+img {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-radius: 15%;
+}
+
+footer {
+    margin-top: 5%;
+}
+
+hr {
+    border-style: solid;
+    border-radius: 5%;
+    border-width: 5px;
+}

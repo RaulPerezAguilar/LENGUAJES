@@ -1,0 +1,27 @@
+<catalogo>
+    <producto id="Producto1">
+        <nombre>FIGURA DE HORNET</nombre>
+        <descripcion>Hornet es la protagonista de Hollow Knight: Silksong, una princesa protectora de las ruinas de Hallownest. En el juego, Hornet utiliza una aguja y hilo para combatir enemigos y resolver misterios en el reino de Pharloom.</descripcion>
+        <precio moneda="EUR">35€</precio>
+    </producto>
+    <producto id="Producto2">
+        <nombre>FIGURA DE NATHAN DRAKE</nombre>
+        <descripcion>Nathan Drake, conocido como Nate, es un personaje icónico de la saga de videojuegos "Uncharted". Nació en 1975 y es descrito como un cazador de tesoros profesional con un profundo conocimiento de la historia y una gran suerte.</descripcion>
+        <precio moneda="EUR">32€</precio>
+    </producto>
+    <producto id="Producto3">
+        <nombre>FIGURA DE SULLY</nombre>
+        <descripcion>Victor Sullivan tambien conocido como "Sully" es uno de los dos deuteragonistas de la serie Uncharted. Es un cazador de tesoros, buscador de fortunas y hombre de negocios estadounidense, además de amigo, mentor y figura paterna del también cazador de tesoros Nathan Drake..</descripcion>
+        <precio moneda="EUR">54€</precio>
+    </producto>
+    <producto id="Producto4">
+        <nombre>FIGURA DE JOEL</nombre>
+        <descripcion>Joel Miller es un personaje icónico de la serie de videojuegos "The Last of Us", desarrollada por Naughty Dog. En el primer juego, Joel actúa como protagonista y debe escoltar a Ellie a través de unos Estados Unidos postapocalípticos con el objetivo de hallar una cura para la infección a la que ella es inmune.</descripcion>
+        <precio moneda="EUR">34€</precio>
+    </producto>
+    <producto id="Producto5">
+        <nombre>FIGURA DE ELLIE</nombre>
+        <descripcion>Ellie Williams es un personaje icónico de la serie "The Last of Us". Nació en un mundo postapocalíptico debido a la infección por Cordyceps, lo que transformó a los humanos en criaturas caníbales. Ellie es descrita como una niña talentosa y rebelde, que enfrenta una serie de desafíos emocionales y físicos.</descripcion>
+        <precio moneda="EUR">27€</precio>
+    </producto>
+</catalogo> 
