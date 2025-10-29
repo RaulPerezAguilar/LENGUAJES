@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<personas>
+
+    <persona id="Persona1">
+        <nombre>Juan Pérez</nombre>
+        <edad>28</edad>
+        <pais>España</pais>
+    </persona>
+
+    <persona id="Persona2">
+        <nombre>Ana Gómez</nombre>
+        <edad>34</edad>
+        <pais>México</pais>
+    </persona>
+
+    <persona id="Persona3">
+        <nombre>Luis Rodríguez</nombre>
+        <edad>45</edad>
+        <pais>Argentina</pais>
+    </persona>
+
+</personas>
