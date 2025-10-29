@@ -15,6 +15,7 @@
         <categoria>Personajes</categoria>
         <precio moneda="EUR">32</precio>
         <imagen url="https://wallpaperaccess.com/full/40650.jpg"></imagen>
+
     </producto>
 
     <producto id="Producto3">
@@ -42,3 +43,15 @@
     </producto>
 
 </catalogo> 
+
+    <!-- 
+        Este documento XML representa un catalogo de productos de figuras de videojuegos.
+        Estructura del catálogo:
+        - Cada producto tiene un identificador único
+        - Contiene información detallada de cada producto incluyendo:
+            * Nombre del producto
+            * Descripción detallada
+            * Categoría (en este caso, Personajes)
+            * Precio (en EUR)
+            * URL de la imagen del producto
+    -->
