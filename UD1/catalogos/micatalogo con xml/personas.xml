@@ -10,13 +10,13 @@
     <persona id="Persona2">
         <nombre>Ana Gómez</nombre>
         <edad>34</edad>
-        <pais>México</pais>
+        <pais>Japon</pais>
     </persona>
 
     <persona id="Persona3">
         <nombre>Luis Rodríguez</nombre>
         <edad>45</edad>
-        <pais>Argentina</pais>
+        <pais>Brasil</pais>
     </persona>
 
 </personas>
