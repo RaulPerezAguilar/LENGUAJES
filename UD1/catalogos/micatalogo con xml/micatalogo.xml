@@ -45,7 +45,6 @@
 </catalogo> 
 
     <!-- 
-        Este documento XML representa un catalogo de productos de figuras de videojuegos.
         Estructura del catalogo:
         - Cada producto tiene un id
         - Contiene información:
