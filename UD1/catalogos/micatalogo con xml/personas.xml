@@ -21,11 +21,11 @@
 
 </personas>
 
-    <!-- 
-        Estructura del catalogo:
-        - Cada producto tiene un identificador único
-        - Contiene información detallada de cada persona incluyendo:
-            * Nombre
-            * Edad
-            * Pais
-    -->
+<!-- 
+    Estructura del catalogo:
+    - Cada producto tiene un identificador único
+    - Contiene información detallada de cada persona incluyendo:
+        * Nombre
+        * Edad
+        * Pais
+-->
