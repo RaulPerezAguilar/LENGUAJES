@@ -20,3 +20,13 @@
     </persona>
 
 </personas>
+
+    <!-- 
+        Este documento XML representa un catalogo de personas.
+        Estructura del catalogo:
+        - Cada producto tiene un identificador único
+        - Contiene información detallada de cada persona incluyendo:
+            * Nombre
+            * Edad
+            * Pais
+    -->
