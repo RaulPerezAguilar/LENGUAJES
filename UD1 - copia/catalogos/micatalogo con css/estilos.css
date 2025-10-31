@@ -1,0 +1,91 @@
+/* Estilos del main */
+main {
+margin: 200 px;
+max-width: 1800px;
+padding: 0 30px;
+}
+/* Estilo para el body */
+body {
+background-image: url('https://wallpapers.com/images/hd/fondorojo-solido-vibrante-9n639n6slgf4lerf.jpg'); 
+background-repeat: no-repeat;
+background-size:cover;
+}
+/* Estilo para el encabezado h1 */
+h1 {
+color: rgb(255, 0, 0); 
+font-family: 'Arial Black', Arial, sans-serif;
+text-shadow: 4px 4px 8px #000000;
+text-align: center;
+font-size: 50px;
+margin-bottom: 20px;
+}
+/* Estilo para el encabezado h2 */
+#Producto {
+color: rgb(255, 255, 255);
+font-family: 'Arial Black', Arial, sans-serif;
+text-shadow: 4px 4px 8px #000000;
+text-align: center;
+font-size: 50px;
+margin-bottom: 20px;
+}
+/* Estilo para el pie de página */
+#SHAW {
+bottom: 10;
+width: 100%; 
+background-color: black;
+color: rgb(255, 0, 0);
+text-align: center;
+padding: 10px 0;
+font-family: 'Arial Black', Arial, sans-serif;
+}
+/* Estilo para ul */
+ul {
+font-family: 'Courier New', Courier, monospace;
+font-size: 25px;
+color: rgb(255, 255, 255);
+margin-left: 35%;
+}
+/* Estilo para p */
+p {
+font-family: 'Arial Black', Arial, sans-serif;
+font-size: 25px;
+color: rgb(255, 0, 0);
+text-align: center;
+text-shadow: 4px 4px 8px #000000;
+}
+/* Estilo para el texto del pie de página */
+#TEXTOSHAW {
+font-family:'Times New Roman', Times, serif;
+font-size: 45px;
+color: rgb(255, 0, 0);
+text-align: center;
+text-shadow: #910000 5px 5px 8px;
+}
+/* Estilo para el h2 */
+h2 {
+color: rgb(255, 0, 0);
+font-family: 'Arial Black', Arial, sans-serif;
+text-shadow: 4px 4px 8px #000000;
+text-align: center;
+font-size: 40px;
+margin-bottom: 20px;
+}
+/* Estilo para la imagen */
+#Imagen1 {
+border: 10px solid rgb(0, 0, 0);
+border-radius: 15px;
+}
+/* Estilo para el gif */
+#Gif1 {
+border: 10px solid rgb(255, 255, 255);
+border-radius: 15px;
+}
+/* Estilo para el .destacado */
+#destacado {
+color: rgb(51, 2, 116); 
+font-family: 'Arial Black', Arial, sans-serif;
+text-shadow : 4px 4px 8px #6b0380;
+text-align: center;
+font-size: 50px;
+margin-bottom: 20px;
+}
