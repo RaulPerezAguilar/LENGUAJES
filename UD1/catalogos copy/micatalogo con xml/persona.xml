@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<personas>
+
+    <persona id="Persona1">
+        <nombre>Juan Pérez</nombre>
+        <sexo>Hombre</sexo>
+        <fecha_nacimiento>
+            <dia>15</dia>
+            <mes>06</mes>
+            <ano>1988</ano>
+        </fecha_nacimiento>
+        <pais>España</pais>
+    </persona>
+
+    <persona id="Persona2">
+        <nombre>Ana Gómez</nombre>
+        <sexo>Hombre</sexo>
+        <fecha_nacimiento>
+            <dia>15</dia>
+            <mes>06</mes>
+            <ano>1988</ano>
+        </fecha_nacimiento>
+        <edad>34</edad>
+        <pais>Japon</pais>
+    </persona>
+
+    <persona id="Persona3">
+        <nombre>Luis Rodríguez</nombre>
+        <sexo>Hombre</sexo>
+        <fecha_nacimiento>
+            <dia>15</dia>
+            <mes>06</mes>
+            <ano>1988</ano>
+        </fecha_nacimiento>
+        <pais>Brasil</pais>
+    </persona>
+
+</personas>
+
+<!-- 
+    Estructura del catalogo:
+    - Cada producto tiene un identificador único
+    - Contiene información detallada de cada persona incluyendo:
+        * Nombre
+        * fecha de nacimiento
+        * Pais
+-->
