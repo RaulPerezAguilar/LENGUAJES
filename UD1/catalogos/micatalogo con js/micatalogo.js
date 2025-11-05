@@ -15,7 +15,7 @@ document.addEventListener('DOMContentLoaded', function() {
  const xmlDoc = parser.parseFromString(xmlTexto, "application/xml");
  // Actualizar el título al tener los datos listos
  if (tituloPrincipal) {
- tituloPrincipal.textContent = 'Catálogo de Productos - Interactivo LMSGI';
+ tituloPrincipal.textContent = 'Catálogo de figuras';
  }
  // 4. RECORRIDO Y GENERACIÓN DINÁMICA
  const productosXML = xmlDoc.querySelectorAll('producto');
