@@ -23,8 +23,8 @@ document.addEventListener('DOMContentLoaded', function() {
  // a) Extracción de datos (Lectura de nodos y atributos)
  const nombre = productoXML.querySelector('nombre').textContent;
  const descripcion = productoXML.querySelector('descripcion').textContent;
- const precio = productoXML.querySelector('precio').textContent;
- const moneda = productoXML.querySelector('precio').getAttribute('moneda');
+ const precio = productoXML.querySelector('cuantia').textContent;
+ const moneda = productoXML.querySelector('cuantia').getAttribute('moneda');
  const categoria = productoXML.querySelector('categoria').textContent;
  const imagenUrl = productoXML.querySelector('imagen').getAttribute('url');
  const idProducto = productoXML.getAttribute('id');
