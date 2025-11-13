@@ -1,0 +1,62 @@
+
+
+body {
+background-repeat: no-repeat;
+background-size:cover;
+background-color: #868686;
+}
+
+h1 {
+text-align: center;
+font-family: 'Courier New', Courier, monospace;
+font-size: 50px;
+text-shadow: #d1d1d1 4px 4px 4px;
+
+}
+
+h2 {
+color: rgb(255, 255, 255);
+font-family: 'Arial Black', Arial, sans-serif;
+text-shadow: 4px 4px 8px #777777;
+text-align: center;
+font-size: 20px;
+margin-bottom: 10px;
+}
+
+.producto-destacado {
+    color: white;
+    border: 2px solid rgba(0,0,0,0.6);
+    border-radius: 8px;
+    margin: 20px auto;
+    padding: 16px;
+    max-width: 800px;
+    background-color: rgba(0,0,0,0.6);
+}
+
+.producto-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto 12px auto;
+    border-radius: 12px;
+}
+
+.precio {
+    font-weight: bold;
+    text-align: center;
+}
+
+.oculto {
+    display: none;
+}
+
+footer {
+    margin-top: 5%;
+}
+
+hr {
+    border-style: solid;
+    border-radius: 5%;
+    border-width: 5px;
+    color: black;
+}
