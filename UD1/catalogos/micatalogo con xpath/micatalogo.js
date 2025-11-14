@@ -1,61 +1,38 @@
- /**
+/**
  * Función que ejecuta una consulta XPath y muestra los resultados en la Consola.
  * @param {string} xpathQuery - La ruta XPath que se desea comprobar.
  * @param {Document} xmlDoc - El objeto DOM del XML parseado.
  */
- function comprobarXPath(xpathQuery, xmlDoc) {
-    console.groupCollapsed(`RESULTADOS DE LA CONSULTA: "${xpathQuery}"`);
-    
-    // El método evaluate() de JavaScript ejecuta la consulta XPath
-    // XPathResult.ORDERED_NODE_ITERATOR_TYPE es el tipo de resultado para listas de nodos
-	 const resultado = xmlDoc.evaluate(
-        xpathQuery, 
-        xmlDoc, 
-        null, 
-        XPathResult.ORDERED_NODE_ITERATOR_TYPE, 
-        null
-    );
-    let nodo = resultado.iterateNext();
-    let contador = 0;
-    // Recorrer e imprimir los nodos
-    while (nodo) {
-        // Comprobamos si es un ATRIBUTO o un ELEMENTO y mostramos su valor.
-        const valor = (nodo.nodeType === 2) ? nodo.value : nodo.textContent;
-        console.log(`[${contador + 1}]  Tipo: ${nodo.nodeName || 'Valor'} -> Valor: ${valor.trim()}`);
-        contador++;
-        nodo = resultado.iterateNext();
-    }
-    
-    if (contador === 0) {
-        console.warn('La consulta XPath NO devolvió ningún nodo. Revisa la ruta.');
-    } else {
-        console.info(`Consulta finalizada. Total de ${contador} nodos encontrados.`);
-    }
-    console.groupEnd();
+function comprobarXPath(xpathQuery, xmlDoc) {
+ console.groupCollapsed(`RESULTADOS DE LA CONSULTA: "${xpathQuery}"`);
+
+ // El método evaluate() de JavaScript ejecuta la consulta XPath
+ // XPathResult.ORDERED_NODE_ITERATOR_TYPE es el tipo de resultado para listas de nodos
+ const resultado = xmlDoc.evaluate(
+ xpathQuery,
+ xmlDoc,
+ null,
+ XPathResult.ORDERED_NODE_ITERATOR_TYPE,
+ null
+ );
+ let nodo = resultado.iterateNext();
+ let contador = 0;
+ // Recorrer e imprimir los nodos
+ while (nodo) {
+ // Comprobamos si es un ATRIBUTO o un ELEMENTO y mostramos su valor.
+ const valor = (nodo.nodeType === 2) ? nodo.value : nodo.textContent;
+ console.log(`[${contador + 1}] Tipo: ${nodo.nodeName || 'Valor'} -> Valor: ${valor.trim()}`);
+ contador++;
+ nodo = resultado.iterateNext();
  }
 
- fetch('micatalogo.xml')
-    .then(response => response.text())
-    .then(xmlTexto => {
-        // ... (código existente de DOMParser) ...
-        const parser = new DOMParser();
-        const xmlDoc = parser.parseFromString(xmlTexto, "application/xml");
-        
-        // =======================================================
-        // A PARTIR DE AQUÍ: LLAMADAS DE PRUEBA DE XPATH
-        // =======================================================
-        
-        // Desafío 1: Todos los atributos 'url'
-        comprobarXPath("//imagen/@url", xmlDoc);
-        
-        // Desafío 2: Todos los productos de 'Audio'
-        comprobarXPath("//producto[categoria='Audio']", xmlDoc);
-		 // Desafío 3: Productos caros
-        comprobarXPath("//producto[number(cuantia) > 100]/nombre", xmlDoc);
-        
-        // ... (código existente para generar el catálogo, etc.) ...
-        // ...
-    })
+ if (contador === 0) {
+ console.warn('La consulta XPath NO devolvió ningún nodo. Revisa la ruta.');
+ } else {
+ console.info(`Consulta finalizada. Total de ${contador} nodos encontrados.`);
+ }
+ console.groupEnd();
+}
 
 document.addEventListener('DOMContentLoaded', function() {
  const tituloPrincipal = document.getElementById('titulo-catalogo');
@@ -72,6 +49,30 @@ document.addEventListener('DOMContentLoaded', function() {
  // 3. PARSEO XML: Convertir el texto a un objeto manipulable
  const parser = new DOMParser();
  const xmlDoc = parser.parseFromString(xmlTexto, "application/xml");
+ fetch('micatalogo.xml')
+ .then(response => response.text())
+ .then(xmlTexto => {
+ // ... (código existente de DOMParser) ...
+ const parser = new DOMParser();
+ const xmlDoc = parser.parseFromString(xmlTexto, "application/xml");
+
+ // =======================================================
+ // A PARTIR DE AQUÍ: LLAMADAS DE PRUEBA DE XPATH
+ // =======================================================
+
+ // Desafío 1: Todos los atributos 'url'
+ comprobarXPath("//imagen/@url", xmlDoc);
+ // Desafío 2: Todos los productos de 'Personajes'
+ comprobarXPath("//producto[categoria='Hollow Knight Silksong']", xmlDoc);
+ // Desafío 3: Productos caros
+ comprobarXPath("//producto[number(cuantia) > 100]/nombre", xmlDoc);
+ // Desafío 4: Búsqueda Específica por ID
+ comprobarXPath("//producto[@id='Producto3']/descripcion", xmlDoc);
+ // Desafío 5: Operador Lógico (o)
+ comprobarXPath("//producto[categoria='Uncharted' or categoria='The last of us']/nombre", xmlDoc);
+ // ... (código existente para generar el catálogo, etc.) ...
+ // ...
+ })
  // Actualizar el título al tener los datos listos
  if (tituloPrincipal) {
  tituloPrincipal.textContent = 'Catálogo de figuras';
