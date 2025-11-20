@@ -70,6 +70,16 @@ document.addEventListener('DOMContentLoaded', function() {
  comprobarXPath("//producto[@id='Producto3']/descripcion", xmlDoc);
  // Desafío 5: Operador Lógico (o)
  comprobarXPath("//producto[categoria='Uncharted' or categoria='The last of us']/nombre", xmlDoc);
+ // Desafío 6: Categoria y precio mayor a 100
+ comprobarXPath("//producto[categoria='Uncharted' and number(cuantia) > 100]/nombre", xmlDoc);
+ // Desafio 7: Seleccionar descripcion del ultimo producto con count
+ comprobarXPath("//producto[count(//producto)=position()]/descripcion", xmlDoc);
+ // Desafio 8: Selecciona la url de una id y moneda EUR
+ comprobarXPath("//producto[@id='Producto2']/cuantia[@moneda='EUR']/../imagen/@url", xmlDoc);
+ // Desafio 9: Seleccionar la categoria de todos los productos pero usando el nodo descripcion como punto de partida
+ comprobarXPath("//catalogo/producto/descripcion/../categoria", xmlDoc);
+ // Desafio 10: Selecciona solo nodos de texto, de los productos mayor a 50€, mostrando solo la cuantia
+ comprobarXPath("//producto[number(cuantia) > 50]/cuantia/text()", xmlDoc);
  // ... (código existente para generar el catálogo, etc.) ...
  // ...
  })
