@@ -1,0 +1,36 @@
+{
+    "catalogo": {
+        "Producto": [
+            {
+            "nombre":"FIGURA DE HORNET",
+            "Descripcion":"Protagonista de Hollow Knight: Siñksong",
+            "categoria":"Hollow Knight: Silksong",
+            "Cuantia":"35"
+            },
+            {
+            "nombre":"FIGURA DE NATHAN DRAKE",
+            "Descripcion":"Cazador de tesoros profesional",
+            "categoria":"Uncharted",
+            "Cuantia":"132"
+            },
+            {
+            "nombre":"FIGURA DE SULLY",
+            "Descripcion":"amigo, mentor y figura paterna del también cazador de tesoros Nathan Drake",
+            "categoria":"Uncharted",
+            "Cuantia":"54"
+            },
+            {
+            "nombre":"FIGURA DE JOEL",
+            "Descripcion":"personaje icónico de la serie de videojuegos The Last of Us",
+            "categoria":"The last of us",
+            "Cuantia":"34"
+            },
+            {
+            "nombre":"FIGURA DE ELLIE",
+            "Descripcion":"Ellie es descrita como una niña talentosa y rebelde",
+            "categoria":"The last of us",
+            "Cuantia":"127"
+            }
+        ]
+    }
+}
