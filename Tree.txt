@@ -1,0 +1,8 @@
+UD 1.7
+	DATA
+		XML	CATALOGO.xml
+		JSON	CATALOGO.json
+README.md
+
+GIT
+REVISION anargom1010. fecha 03/12/25 primer commit catalogo.json
