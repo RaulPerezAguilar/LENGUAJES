@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+Raul Perez Aguilar
+-->
+<infraestructura>
+    <zona>Europa-Sur</zona>
+    <inventario>
+        <maquina id="srv-01">
+            <hostname>web-alpha</hostname>
+            <ip>192.168.1.10</ip>
+            <activa>true</activa>
+            <carga_cpu>45</carga_cpu>
+            <fecha_alta>2023-05-15</fecha_alta>
+            <roles>
+                <rol>frontend</rol>
+                <rol>api</rol>
+            </roles>
+        </maquina>
+
+        <maquina id="srv-02">
+            <hostname>db-master</hostname>
+            <ip>192.168.1.20</ip>
+            <activa>true</activa>
+            <carga_cpu>78</carga_cpu>
+            <fecha_alta>2023-06-01</fecha_alta>
+            <roles>
+                <rol>database</rol>
+                <rol>cache</rol>
+            </roles>
+        </maquina>
+
+        <maquina id="srv-03">
+            <hostname>monitor-z</hostname>
+            <ip>192.168.1.30</ip>
+            <activa>false</activa>
+            <carga_cpu>12</carga_cpu>
+            <fecha_alta>2024-01-10</fecha_alta>
+            <roles>
+                <rol>monitoring</rol>
+                <rol>logs</rol>
+                <rol>alerting</rol>
+            </roles>
+        </maquina>
+    </inventario>
+</infraestructura>

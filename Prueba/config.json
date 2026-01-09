@@ -1,0 +1,44 @@
+{
+  "infraestructura": {
+    "zona": "Europa-Sur",
+    "inventario": [
+      {
+        "id": "srv-01",
+        "hostname": "web-alpha",
+        "ip": "192.168.1.10",
+        "activa": true,
+        "carga_cpu": 45,
+        "fecha_alta": "2023-05-15",
+        "roles": [
+          "frontend",
+          "api"
+        ]
+      },
+      {
+        "id": "srv-02",
+        "hostname": "db-master",
+        "ip": "192.168.1.20",
+        "activa": true,
+        "carga_cpu": 78,
+        "fecha_alta": "2023-06-01",
+        "roles": [
+          "database",
+          "cache"
+        ]
+      },
+      {
+        "id": "srv-03",
+        "hostname": "monitor-z",
+        "ip": "192.168.1.30",
+        "activa": false,
+        "carga_cpu": 12,
+        "fecha_alta": "2024-01-10",
+        "roles": [
+          "monitoring",
+          "logs",
+          "alerting"
+        ]
+      }
+    ]
+  }
+}
