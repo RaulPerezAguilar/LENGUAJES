@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE inventario SYSTEM "Inventario.dtd">
+<inventario>
+    <producto>
+        <nombre>Teclado Mecánico RGB</nombre>
+        <precio>85.50</precio>
+        <stock>12</stock>
+        <categoria> Periféricos</categoria>
+        <seguro>Opcional</seguro>
+    </producto>
+    <producto>
+        <nombre>Monitor 27 Pulgadas</nombre>
+        <precio>210.00</precio>
+        <stock>5</stock>
+        <categoria> Monitores</categoria>
+        <seguro>Opcional</seguro>
+    </producto>
+</inventario>
