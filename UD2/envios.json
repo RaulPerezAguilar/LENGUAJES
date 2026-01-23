@@ -1,0 +1,28 @@
+{
+  "paquetes": [
+    {
+      "id": "SEV-001",
+      "urgencia": "Express",
+      "remitente": "Empresa Andaluza SL",
+      "peso_kg": 2.5,
+      "entregado": true,
+      "fecha_admision": "2025-01-10"
+    },
+    {
+      "id": "MAD-245",
+      "urgencia": "Standard",
+      "remitente": "Logística Central",
+      "peso_kg": 15.0,
+      "entregado": false,
+      "fecha_admision": "2025-01-12"
+    },
+    {
+      "id": "BCN-999",
+      "urgencia": "BajoCoste",
+      "remitente": "Juan Pérez",
+      "peso_kg": 0.8,
+      "entregado": true,
+      "fecha_admision": "2025-01-15"
+    }
+  ]
+}
