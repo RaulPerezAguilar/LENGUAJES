@@ -1,0 +1,65 @@
+{
+  "paquetes": [
+    {
+      "id": "SEV-001",
+      "urgencia": "Express",
+      "remitente": "Empresa Andaluza SL",
+      "peso_kg": 2.5,
+      "entregado": true,
+      "fecha_admision": "2025-01-10",
+      "coordenadas_gps": "37.3891,-5.9845",
+      "historial": [
+        {
+          "hora": "2025-01-10T08:00:00",
+          "descripcion": "Salida de almacén"
+        },
+        {
+          "hora": "2025-01-10T10:30:00",
+          "descripcion": "En reparto"
+        },
+        {
+          "hora": "2025-01-10T13:15:00",
+          "descripcion": "Entregado"
+        }
+      ]
+    },
+    {
+      "id": "MAD-245",
+      "urgencia": "Standard",
+      "remitente": "Logística Central",
+      "peso_kg": 15.0,
+      "entregado": false,
+      "fecha_admision": "2025-01-12",
+      "coordenadas_gps": "40.4168,-3.7038",
+      "historial": [
+        {
+          "hora": "2025-01-12T09:00:00",
+          "descripcion": "Salida de almacén"
+        },
+        {
+          "hora": "2025-01-13T07:45:00",
+          "descripcion": "En tránsito"
+        }
+      ]
+    },
+    {
+      "id": "BCN-999",
+      "urgencia": "BajoCoste",
+      "remitente": "Juan Pérez",
+      "peso_kg": 0.8,
+      "entregado": true,
+      "fecha_admision": "2025-01-15",
+      "coordenadas_gps": "41.3874,2.1686",
+      "historial": [
+        {
+          "hora": "2025-01-15T06:30:00",
+          "descripcion": "Salida de almacén"
+        },
+        {
+          "hora": "2025-01-16T12:00:00",
+          "descripcion": "Entregado"
+        }
+      ]
+    }
+  ]
+}
